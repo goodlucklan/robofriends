@@ -25,7 +25,7 @@ class App extends React.Component {
             return robot.name.toLowerCase().includes(searchfield.toLowerCase());
         })
         return !robots.length ?
-            <h1>Cargando...</h1> :
+            <h1>Cargando Ando...</h1> :
             (
                 <div className='tc'>
                     <h1 className="f1">RoboFriends</h1>
